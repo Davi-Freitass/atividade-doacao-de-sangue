@@ -18,12 +18,16 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
 
     let termo = document.getElementById("termo").checked;
 
+    let peso = document.getElementById("peso").value;
+    
+
 
     if (nome.length < 3) return alert("Nome muito curto");
     if (!email.includes("@")) return alert("Email inválido");
     if (telefone.length < 10) return alert("Telefone inválido");
     if (cpf === "") return alert("CPF é obrigatório");
     if (idade < 16) return alert("Você deve ser maior de 16 anos para doar");
+    if (peso === "") return alert("Por favor informe o seu peos");
     if (cidade === "") return alert("Por favor informe a cidade");
     if (estado === "") return alert("Por favor informe o estado");
     if (!termo) return alert("Obrigatório aceitar os termos para doar");
