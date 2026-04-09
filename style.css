@@ -1,0 +1,41 @@
+.titulo {
+    font-size: 56px;
+    text-align: center;
+    color: antiquewhite;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    margin: 8px;
+    font-family: times;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+.navbar {
+    height: 80px;
+    position: sticky;
+    background-color: rgb(102, 30, 30);
+    border: solid antiquewhite 4px;
+}
+
+body {
+    background-image: url(assets/sangue.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fundo_cadastro {
+    background-color: antiquewhite;
+    width: 30vw;
+    height: 700px;
+    margin: 80px auto;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    text-align: center;
+}
